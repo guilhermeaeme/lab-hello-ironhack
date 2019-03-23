@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 15px;
+    width: 1200px;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.col {
+    float: left;
+    padding: 0 15px;
+    width: 25%;
+}
+
+.col img {
+    margin-left: -22px;
+    max-width: 100%;
+}
+
+header {
+    background: #1d212f;
+    color: #FFF;
+    padding: 0 0 50px;
+}
+
+header nav.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+header > .container {
+    padding-top: 50px;
+}
+
+header p {
+    font-size: 1.6rem;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+header .btn {
+    background: #FFF;
+    border-radius: 5px;
+    display: inline-block;
+    color: #1d212f;
+    font-weight: bold;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+main {
+    padding: 50px 0;
+}
